@@ -1,0 +1,17 @@
+# requirements.txt lists external Python packages required by the project.
+
+# This file is mainly used with pip.
+
+# Common commands:
+# pip install -r requirements.txt
+
+# In this project, no exact versions are required.
+
+
+
+# Numerical computations and random dataset generation.
+numpy
+# Data manipulation and tabular data processing.
+pandas
+# Graph and visualization creation.
+matplotlib

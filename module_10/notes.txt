@@ -1,0 +1,24 @@
+ex0
+# in python, functions can be the vaslues. meaning that, they can be:
+# -- stored in a variable
+# -- passed to another function
+# -- returned from another function
+# -- wrapped by another function
+# -- remember data from its creation environment
+# note: functions are not only blocks of code. they can be building blocks
+
+
+# lambda: a small function without a name. (usually when only needed once)
+# higher order functions: a function that works with another function
+# closures: functions that remember. (remembers the variables from the place
+# where is was created)
+# functools: ready-made function tools
+# -- reduce: combines many values into one value
+# -- partial: creates a new function with some arguments already filled in
+# -- lru_cache: remembers previous results so the function does not repeat
+# -- singledispatch: lets one function behave differenly depending on the input
+# decorations (wrapping functions): a function that takes another function and
+# returns a modified version of it
+
+
+ex1

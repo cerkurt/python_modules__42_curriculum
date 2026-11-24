@@ -1,0 +1,53 @@
+# pyproject.toml is the main configuration file used by Poetry.
+# Poetry is a dependency and project management tool for Python.
+
+# Poetry can automatically create and manage virtual environments.
+# This file is usually created with:
+# poetry init
+# or automatically with:
+# poetry new project_name
+
+# General project metadata.
+[tool.poetry]
+
+# Name of the Python project.
+name = "loading"
+
+# Current project version.
+version = "0.1.0"
+
+# Short explanation of the project.
+description = "Matrix data analysis exercise"
+
+# Project author information.
+authors = ["cerkurt"]
+
+
+
+
+# External packages required by this project.
+[tool.poetry.dependencies]
+
+# Minimum and maximum supported Python versions.
+python = ">=3.10,<4.0"
+
+# numpy is used for numerical computation and random dataset generation.
+numpy = "*"
+
+# pandas is used for organizing and processing tabular data.
+pandas = "*"
+
+# matplotlib is used for creating and saving graphs.
+matplotlib = "*"
+
+
+
+
+# Build system configuration used by Poetry.
+[build-system]
+
+# poetry-core contains the internal build tools required by Poetry.
+requires = ["poetry-core"]
+
+# Backend responsible for packaging and building the project.
+build-backend = "poetry.core.masonry.api"
